@@ -23,7 +23,7 @@
 				}
 				//echo $gambar;
 				?>
-				<a href="index.php?page=read_profile"><h3><?= $profile_page_name ?></h3></a>
+				<a href="index.php?page=read_profile"><h3>Profil<span> Jawa Timur</span></h3></a>
 				<img src="images/surabaya.jpg" class="profile-img">
 				<p>
 				<?php
@@ -63,7 +63,7 @@
 		<div class="one-third column">
 			<article class="icon-box">
 				
-			<a href="index.php?page=content&id_menu=4"><h3>Pejabat Pengelola Informasi</h3></a>
+			<a href="index.php?page=content&id_menu=4"><h3>Pejabat <span>Pengelola Informasi</span></h3></a>
 				<?php
 				 	$query_news1 = $mysqli->query("SELECT * FROM news_menu WHERE news_cat_id = '4' and active_status = '1' ORDER BY news_lock_id desc, news_id DESC LIMIT 0,2");
 					//$query_news1 = $mysqli->query("SELECT * FROM news WHERE news_cat_id = 1 and active_status = '1'  ORDER BY news_date DESC LIMIT 0,2");
@@ -109,7 +109,7 @@
 		<div class="one-third column">
 			<article class="icon-box">
 				
-				<a href="index.php?page=news&news_cat_id=3"><h3>Agenda Kegiatan</h3></a>
+				<a href="index.php?page=news&news_cat_id=3"><h3>Agenda <span>Kegiatan</span></h3></a>
 				 <?php
 				$query_news2 = $mysqli->query("SELECT * FROM news WHERE news_cat_id = 3 and active_status = '1'  ORDER BY news_date DESC LIMIT 0,2");
 					while($row_news2 = mysqli_fetch_array($query_news2)){

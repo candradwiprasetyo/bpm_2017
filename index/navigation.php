@@ -3,8 +3,6 @@
 ================================================== -->
 <nav id="navigation" class="style-1">
 
-<div class="left-corner"></div>
-<div class="right-corner"></div>
 
 <ul class="menu" id="responsive">
 	<?php

@@ -7,7 +7,7 @@
 		<!-- Copyrights -->
 		<div class="eight columns">
 			<div class="copyright">
-				© Copyright 2016 by <a href="#">BPM Jawa Timur</a>. All Rights Reserved.
+				© Copyright 2017 by <a href="#">BPM Jawa Timur</a>. All Rights Reserved.
 			</div>
 		</div>
 

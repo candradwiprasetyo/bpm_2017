@@ -19,6 +19,7 @@ include 'libraries/lib.php';
 <!-- CSS
 ================================================== -->
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
 <link rel="stylesheet" href="css/colors/blue.css" id="colors">
 <link rel="shortcut icon" href="img/images/favicon.ico">
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic">
@@ -100,7 +101,7 @@ include 'libraries/lib.php';
 <?php include 'index/footer.php'; ?>
 
 <!-- Footer Bottom -->
-<?php //include 'index/footer_bottom.php'; ?>
+<?php include 'index/footer_bottom.php'; ?>
 
 </body>
 </html>

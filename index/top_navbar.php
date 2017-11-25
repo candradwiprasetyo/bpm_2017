@@ -3,13 +3,13 @@
     	
       		<div class="navbar">
 	        	<div class="item">
-	        		<i class="halflings map-marker"></i>Jalan Rajawali No. 6-8 Surabaya
+	        		<i class="fa fa-map-marker"></i> Jalan Johar No.172 Surabaya
 	        	</div>
 	        	<div class="item">
-	        		<i class="halflings phone"></i>031-3537537
+	        		<i class="fa fa-mobile"></i> 031-3537537
 	        	</div>
 	        	<div class="item">
-	        		<i class="halflings envelope"></i>invest@bpm.jatimprov.go.id
+	        		<i class="fa fa-envelope"></i> invest@bpm.jatimprov.go.id
 	        	</div>
       		</div>
     	
