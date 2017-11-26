@@ -1,4 +1,5 @@
 <!-- 960 Container -->
+<div class="row u-bg--white u-box-shadow u-pad-bottom--20">
 <div class="container">
 
 	<!-- Recent News -->
@@ -66,6 +67,6 @@
 	</div>
 
 	
-
+</div>
 </div>
 <!-- 960 Container / End -->

@@ -1,10 +1,14 @@
 <!-- 960 Container -->
+<div class="row">
 <div class="container floated">
-	<div class="blank floated">
+	<div class="">
+		<div class="eight columns">
 		<section class="entire">
 				<a href="index.php?page=news&news_cat_id=0"><h3>Kinerja Investasi <span>dan Indikator Kinerja Utama</span></h3></a>
 				
 			</section>
+		</div>
+		<div class="u-clear"></div>
 		<!-- Recent Work Entire -->
 		<div class="four columns carousel-intro">
 
@@ -32,10 +36,10 @@
 					while($row_news1 = mysqli_fetch_array($query_news1)){
 				?>
 				<!-- Recent Work Item -->
-				<li class="four columns">
+				<li class="four columns c-four-column">
 					<a href="index.php?page=read&num=<?= $row_news1['news_id']?>" class="portfolio-item">
-						<figure>
-							<img src="<?php echo $row_news1['news_img'] ?>" alt=""/>
+						<figure class="u-box-shadow">
+							<div class="c-main-photo"><img src="<?php echo $row_news1['news_img'] ?>" alt=""/></div>
 							<figcaption class="item-description">
 								<h5><?= $row_news1['news_title']?></h5>
 								<span><?= format_date($row_news1['news_date']) ?></span>
@@ -54,5 +58,6 @@
 		<!-- jCarousel / End -->
 
 	</div>
+</div>
 </div>
 <!-- 960 Container / End -->

@@ -3,7 +3,7 @@
 ================================================== -->
 <nav id="navigation" class="style-1">
 
-
+<div class="container floated">
 <ul class="menu" id="responsive">
 	<?php
 	  $i = 1;
@@ -89,5 +89,6 @@
     ?>
 
 </ul>
+</div>
 </nav>
 <div class="clearfix"></div>

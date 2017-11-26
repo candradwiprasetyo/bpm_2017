@@ -1,5 +1,5 @@
 <div class="top-navbar">
-  	<div class="container">
+  	<div class="container floated">
     	
       		<div class="navbar">
 	        	<div class="item">

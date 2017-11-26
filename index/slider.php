@@ -1,3 +1,4 @@
+<div class="row  u-box-shadow">
 <div class="container floated" style="background: #F6FAFE">
 	<div class="ten floated" style="padding: 0px;">
 		<!-- FlexSlider  -->
@@ -72,4 +73,5 @@
 			?>
 		</div>
 	</div>
+</div>
 </div>

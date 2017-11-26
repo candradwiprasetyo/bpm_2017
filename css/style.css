@@ -151,8 +151,7 @@ body{
 ====================================*/
 #navigation {
 	height: 49px;
-	width: 1040px;
-	margin-left: -10px;
+	width: 100%;
 	background-color: #63B1F7;
 	float: left;
 	left: 1px;
@@ -234,13 +233,11 @@ body{
 
 .menu li:hover > ul {display:block;}
 
-#navigation ul li:first-child { margin-left: -8px; }
 #navigation ul li ul li:first-child,
 #navigation ul li ul li ul li:first-child { margin-left: 0; }
 
 #current {
 	background-color: #169fe6;
-	border-right: 1px solid #169fe6;
 	margin-left: -1px;
 	padding-left:21px;
 	z-index: 8;
@@ -254,16 +251,14 @@ body{
 	font-weight: 400;
 	font-size: 13px;
 	line-height:18px;
-	padding: 15px 15px 16px 15px;
+	padding: 15px 17px;
 	font-weight: bold;
 }
 
 .menu > li:hover > a {
-	background-color: #707070;
+	background-color: #B51800;
 	border-left:none;
 	padding-left:16px;
-	border-right:1px solid #707070;
-	margin: 0 0 0 -1px;
 }
 
 ul.menu li a {
@@ -283,7 +278,6 @@ ul.menu li a {
 }
 
 .menu > li > a { /*border-right:1px solid #666;*/ }
-.menu > li > a:hover { border-right:1px solid #707070; margin: 0 0 0 -1px; }
 
 .menu > li > a img, .menu li > ul > li > a img {
 	border:0;
@@ -301,10 +295,11 @@ ul.menu li a {
 	border-radius: 0 0 2px 2px;
 	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.04);
 	box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+	margin-top: 1px;
 }
 
 .menu ul a {
-	color: #777;
+	color: #08294C;
 	font-size: 12px;
 	line-height: 18px;
 	padding: 9px 12px;
@@ -1509,9 +1504,9 @@ html[xmlns] .slides {display: block;}
     -webkit-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.03);
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.03);
     margin: 5px 0px;
-    width: 50%;
-    float: left;
+    width: 90%;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -1576,7 +1571,7 @@ html[xmlns] .slides {display: block;}
 .entire a:hover { color: #888; }
 
 .item-description {
-	padding: 14px 0 19px 0;
+	padding: 20px 10px;
 	background: #fff;
 	border-radius: 0 0 2px 2px;
 	border-top: 5px solid #e5e5e5;
@@ -1588,6 +1583,7 @@ html[xmlns] .slides {display: block;}
 	transition: all 180ms ease-in-out;
 	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 0 1px rgba(0,0,0,0.1);
 	box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 0 1px rgba(0,0,0,0.1);
+	min-height: 80px;
 }
 
 .ie8 .item-description {border-bottom: 1px solid #e8e8e8; }
@@ -1611,11 +1607,11 @@ html[xmlns] .slides {display: block;}
 	font-weight: 600;
 }
 
-.item-description span { color: #888; font-size: 13px; font-weight: 300; }
+.item-description span { color: #F77B04; font-size: 12px; font-weight: bold; }
 
 .portfolio-item {
 	margin: 10px 0;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	display: block;
 	background-color: #fff;
 }
@@ -3593,8 +3589,9 @@ table.standard-table tr:hover td {background-color: #fafafa;}
 }
 
 .pricing-table-new li.sign-up .icon-check-circle{
-	margin-right: 5px;
+	margin-right: 10px;
 	font-size: 14px;
+	color: #F77B04;
 }
 
 .pricing-table-new li.sign-up a { font-weight: 200; letter-spacing: 0; }
@@ -4295,9 +4292,6 @@ table.standard-table.shop td {
 		width: 714px;
 	}
 
-	#navigation {
-		width: 734px;
-	}
 
 	.style-2 {
 		width: 714px !important;
@@ -4997,6 +4991,68 @@ input[type=search][type=search]::-webkit-input-placeholder {
 }
 .list-kabupaten .desc{
 	padding: 10px;
+}
+
+/*---------------------c-header-------------------*/
+
+.c-header {
+	width: 100%;
+	background: url('../images/header-pattern.png') repeat-x #08294C;
+}
+
+/*---------------------utilities-------------------*/
+.u-clear {
+	clear: both;
+}
+
+.u-pad-bottom--20 {
+	padding-bottom: 20px;
+}
+.container-real {
+	width: 1020px;
+	margin-left:-10px;
+	margin-right: -10px;
+}
+
+.u-pad--20 {
+	padding: 20px;
+}
+
+.u-bg--white {
+	background-color: #fff;
+}
+
+.u-margin-top--20 {
+	margin-top: 20px !important;
+}
+
+.u-box-shadow {
+	box-shadow: 0 0px 10px 0 #eee;
+}
+
+.row {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.c-four-column {
+	width: 242px !important;
+}
+
+.c-main-photo {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 65%;
+	height: 0; 
+}
+
+.c-main-photo img{
+	transition: all 0.3s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 
 @media only screen and (max-width: 768px) {

@@ -72,9 +72,7 @@ include 'libraries/lib.php';
 </head>
 <body style="top:0px !important;">
 
-<div id="background_img">
-	<!-- <img class="bground" src="images/20140616130641kawah-ijen2a.jpg"> -->
-</div>
+
 <?php
    global $mysqli;
 ?>
@@ -82,8 +80,7 @@ include 'libraries/lib.php';
 
 <?php include 'index/logo.php'; ?>
 
-<!-- Wrapper / Start -->
-<div id="wrapper">
+
 
 <!-- Header -->
 <?php include 'index/header.php'; ?>
@@ -91,6 +88,8 @@ include 'libraries/lib.php';
 <!-- Navigation -->
 <?php include 'index/navigation.php'; ?>
 
+<!-- Wrapper / Start -->
+<div id="wrapper">
 <!-- Content -->
 <?php include 'index/page.php'; ?>
 

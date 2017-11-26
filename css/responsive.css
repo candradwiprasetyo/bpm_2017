@@ -23,11 +23,10 @@
     .row                                        { margin-bottom: 20px; }
 
     /* Nested Column Classes */
-    #content { overflow: hidden; background: #fff;}
     .column.alpha, .columns.alpha               { margin-left: 0; }
     .column.omega, .columns.omega               { margin-right: 0; }
     .container .floated                         { float: left; display: inline; margin: 0; padding: 0 40px; }
-    .blank.floated                              { float: left; display: inline; margin: 0; width: 960px; padding: 0 30px; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; background: #F6FAFE; -webkit-box-shadow: inset 0px 2px 0px 0px #f7f7f7, inset 0px -2px 0px 0px #f7f7f7; box-shadow: inset 0px 2px 0px 0px #f7f7f7, inset 0px -2px 0px 0px #f7f7f7;}
+    .blank.floated                              { float: left; display: inline; margin: 0; width: 960px; padding: 10px 30px; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; background: #F6FAFE; -webkit-box-shadow: inset 0px 2px 0px 0px #f7f7f7, inset 0px -2px 0px 0px #f7f7f7; box-shadow: inset 0px 2px 0px 0px #f7f7f7, inset 0px -2px 0px 0px #f7f7f7;}
 
 
     /* Equal Sidebar */

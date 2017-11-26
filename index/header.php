@@ -1,7 +1,6 @@
 
 <!-- Header
 ================================================== -->
-<div id="top-line"></div>
 
 <!-- 960 Container -->
 <div class="container">

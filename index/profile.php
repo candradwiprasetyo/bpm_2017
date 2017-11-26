@@ -1,4 +1,5 @@
 <!-- 960 Container -->
+<div class="row u-bg--white u-box-shadow">
 <div class="container">
 <!-- Icon Boxes -->
 	<section class="icon-box-container">
@@ -65,7 +66,7 @@
 				
 			<a href="index.php?page=content&id_menu=4"><h3>Pejabat <span>Pengelola Informasi</span></h3></a>
 				<?php
-				 	$query_news1 = $mysqli->query("SELECT * FROM news_menu WHERE news_cat_id = '4' and active_status = '1' ORDER BY news_lock_id desc, news_id DESC LIMIT 0,2");
+				 	$query_news1 = $mysqli->query("SELECT * FROM news_menu WHERE news_cat_id = '4' and active_status = '1' ORDER BY news_lock_id desc, news_id DESC LIMIT 0,3");
 					//$query_news1 = $mysqli->query("SELECT * FROM news WHERE news_cat_id = 1 and active_status = '1'  ORDER BY news_date DESC LIMIT 0,2");
 					while($row_news1 = mysqli_fetch_array($query_news1)){
 				?>
@@ -111,7 +112,7 @@
 				
 				<a href="index.php?page=news&news_cat_id=3"><h3>Agenda <span>Kegiatan</span></h3></a>
 				 <?php
-				$query_news2 = $mysqli->query("SELECT * FROM news WHERE news_cat_id = 3 and active_status = '1'  ORDER BY news_date DESC LIMIT 0,2");
+				$query_news2 = $mysqli->query("SELECT * FROM news WHERE news_cat_id = 3 and active_status = '1'  ORDER BY news_date DESC LIMIT 0,3");
 					while($row_news2 = mysqli_fetch_array($query_news2)){
 					?>
 				<article class="">
@@ -132,7 +133,7 @@
 					<div class="medium-description">
 						<?php
 							$a = explode(" ",$row_news2['news_desc_index']);
-							for($c=0; $c<=20; $c++){
+							for($c=0; $c<=15; $c++){
 								if(isset($a[$c])){
 									echo $a[$c]." ";
 								}
@@ -154,6 +155,7 @@
 	<!-- Icon Boxes / End -->
 
 	
+</div>
 </div>
 <!-- 960 Container / End -->
 

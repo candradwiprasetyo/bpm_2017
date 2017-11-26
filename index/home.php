@@ -1,6 +1,4 @@
-<!-- Content
-================================================== -->
-<div id="content">
+
 
 <?php include 'slider.php'; ?>
 
@@ -44,6 +42,3 @@
 	</div>
 </div>
 <!-- 960 Container / End -->
-
-</div>
-<!-- Content / End -->
