@@ -1,5 +1,5 @@
 <!-- 960 Container -->
-<div class="row u-bg--white u-box-shadow u-pad-bottom--20">
+<div class="row u-bg--white u-box-shadow u-pad-bottom--20 u-margin-bottom--30">
 <div class="container">
 
 	<!-- Recent News -->
@@ -17,7 +17,11 @@
 					<span class="month"><?= format_only_month($row_news1['news_date']); ?></span>
 				</section>
 
-				<a href="index.php?page=content&id_menu=6&news_id=<?= $row_news1['news_id'] ?>"><h4><img src="<?php echo $row_news1['news_img'] ?>" class="news-img">
+				<a href="index.php?page=content&id_menu=6&news_id=<?= $row_news1['news_id'] ?>">
+				<h4>
+					<div class="c-main-photo u-margin-bottom--10">
+						<img src="<?php echo $row_news1['news_img'] ?>" class="news-img">
+					</div>
 				<?= $row_news1['news_title']?></h4></a>
 				<p>
 					<?php

@@ -47,7 +47,7 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background: url(../images/bg/noise.png) repeat;
+		background: url(../images/bg-noise.png) #F6FAFE;
 		font-size: 13px;
 		line-height: 21px;
 		color: #08294C;

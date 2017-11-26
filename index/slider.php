@@ -1,5 +1,5 @@
 <div class="row  u-box-shadow">
-<div class="container floated" style="background: #F6FAFE">
+<div class="container floated" style="background: #fff">
 	<div class="ten floated" style="padding: 0px;">
 		<!-- FlexSlider  -->
 		<section class="flexslider home">

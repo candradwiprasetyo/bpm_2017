@@ -23,6 +23,9 @@ include 'libraries/lib.php';
 <link rel="stylesheet" href="css/colors/blue.css" id="colors">
 <link rel="shortcut icon" href="img/images/favicon.ico">
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,100italic,400italic|Roboto+Condensed|Montserrat:100,200,300,400,500,600,700&lang=en">
+
+
 
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>

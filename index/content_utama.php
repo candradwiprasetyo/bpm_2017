@@ -5,7 +5,7 @@ global $mysqli;
    $excute =  $mysqli->query($query_menu);
    $data = mysqli_fetch_array($excute);
 ?>
-<div id="content">
+<div class="row u-bg--white u-box-shadow">
 
 <!-- 960 Container -->
 <div class="container floated">
