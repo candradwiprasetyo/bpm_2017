@@ -17,6 +17,7 @@
 	<div class="page-content">
 
 		 <?php
+		 global $mysqli;
 		$query_news1 = $mysqli->query("select * from contact_questions where active_status='1' ORDER BY tgl DESC ");
 			while($row_news1 = mysqli_fetch_array($query_news1)){
 				

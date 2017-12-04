@@ -22,6 +22,7 @@
 	<div class="page-content">
 
 		<?php
+		global $mysqli;
 		$no=1;
 		$query_news1 = $mysqli->query("select * from cities  ORDER BY city_id desc ");
 		while($row_news1 = mysqli_fetch_array($query_news1)){

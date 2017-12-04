@@ -1,5 +1,5 @@
 <?php
-
+global $mysqli;
 $title 			= ".: Badan Penanaman Modal :.";
 $icon 			= "img/images/favicon.ico";
 $path 			= "index/view/";
@@ -13,6 +13,7 @@ $footer			= $path.'footer.php';
 $bawah			= $path.'bawah.php';
 
 function count_data($table, $where){
+	global $mysqli;
 		$query = $mysqli->query("select count(*) as jumlah from $table where $where");
 		$row = mysqli_fetch_object($query);
 		return $row->jumlah;

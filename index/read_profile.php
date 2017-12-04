@@ -1,4 +1,5 @@
-<?php   
+<?php  
+global $mysqli; 
    $query = "SELECT profile_page, profile_page_name FROM config";
    $excute =  $mysqli->query($query);
    $data = mysqli_fetch_array($excute);

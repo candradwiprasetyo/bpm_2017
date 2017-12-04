@@ -1,4 +1,5 @@
   <?php
+  global $mysqli;
 	$_GET['publication_id'] = (isset($_GET['publication_id'])) ? $_GET['publication_id'] : '';
  
 

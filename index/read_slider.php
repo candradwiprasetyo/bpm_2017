@@ -1,4 +1,5 @@
 <?php
+global $mysqli;
  $id = abs((int)$_GET['id']);
    $query = "SELECT * FROM slider WHERE id = $id";
    $excute =  $mysqli->query($query);

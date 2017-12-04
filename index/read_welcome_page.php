@@ -1,4 +1,5 @@
 <?php   
+	global $mysqli;
    $query = "SELECT welcome_page, welcome_page_photo, welcome_page_name FROM config";
    $excute =  $mysqli->query($query);
    $data = mysqli_fetch_array($excute);

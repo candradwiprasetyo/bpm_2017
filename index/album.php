@@ -1,4 +1,5 @@
   <?php
+  global $mysqli;
 	$_GET['album_id'] = (isset($_GET['album_id'])) ? $_GET['album_id'] : '';
     if(isset($_GET['page']) && $_GET['page'] == "album"){
 		$link_search = "index.php?page=".$_GET['page']."&album_id=".abs((int)$_GET['album_id']);
