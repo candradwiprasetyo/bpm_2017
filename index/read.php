@@ -1,5 +1,6 @@
 <?php
 //include '../../libraries/config.php';
+global $mysqli;
  $news_id = abs((int)$_GET['num']);;
    
    $query = "SELECT * FROM news WHERE news_id = $news_id";

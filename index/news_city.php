@@ -9,7 +9,7 @@ if($_GET['page'] == "news_city"){
 }
 
 ?>
-<div id="content">
+<div class="row u-bg--white  u-box-shadow">
 
 
 <!-- 960 Container -->
