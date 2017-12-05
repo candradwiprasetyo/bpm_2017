@@ -1,5 +1,3 @@
-<?php 
-/*
 <div id="flag">
 
   <div class="translation-links">
@@ -52,33 +50,32 @@ $('.translation-links a').click(function(e)
     var lang = $(this).data('lang');
     $('#google_translate_element select option').each(function(){
     
-    var bahasa = $(this).text();
-    switch(bahasa) {
-      case "Bahasa Indonesia":
-        bahasa = "Indonesian";
-        break;
-      case "Inggris" :
-        bahasa = "English";
-        break;
-      case "Jepang" :
-        bahasa = "Japanese";
-        break;
-      case "Mandarin (Aks. Tradisional)" :
-        bahasa = "Chinese";
-        break;
-      case "Arab" :
-        bahasa = "Arabic";
-        break;
-    }
-    if(bahasa.indexOf(lang) > -1) {
-        $(this).parent().val($(this).val());
-        var container = document.getElementById('google_translate_element');
-        var select = container.getElementsByTagName('select')[0];
-        triggerHtmlEvent(select, 'change');
-    }
+      var bahasa = $(this).text();
+      switch(bahasa) {
+        case "Indonesia":
+          bahasa = "Indonesian";
+          break;
+        case "Inggris" :
+          bahasa = "English";
+          break;
+        case "Jepang" :
+          bahasa = "Japanese";
+          break;
+        case "China (Aks. Tradisional)" :
+          bahasa = "Chinese";
+          break;
+        case "Arab" :
+          bahasa = "Arabic";
+          break;
+      }
+      if(bahasa.indexOf(lang) > -1) {
+          $(this).parent().val($(this).val());
+          var container = document.getElementById('google_translate_element');
+          var select = container.getElementsByTagName('select')[0];
+          triggerHtmlEvent(select, 'change');
+      }
     });
 });
 
 </script>
-*/
-?>
+

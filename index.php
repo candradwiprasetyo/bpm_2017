@@ -10,7 +10,7 @@ include 'libraries/lib.php';
 <!-- Basic Page Needs
 ================================================== -->
 <meta charset="utf-8">
-<title>BPM Jawa Timur</title>
+<title>DPM PTSP Provinsi Jatim</title>
 
 <!-- Mobile Specific Metas
 ================================================== -->
@@ -24,6 +24,7 @@ include 'libraries/lib.php';
 <link rel="shortcut icon" href="img/images/favicon.ico">
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,100italic,400italic|Roboto+Condensed|Montserrat:100,200,300,400,500,600,700&lang=en">
+
 
 
 
@@ -50,10 +51,10 @@ include 'libraries/lib.php';
 <script src="scripts/jquery.layerslider.min.js"></script>
 <script src="scripts/jquery.shop.js"></script>
 <script src="scripts/custom.js"></script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
 
-<!-- <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
 
-<script type="text/javascript" src="//api.skyscanner.net/api.ashx?key="></script>
+<!-- <script type="text/javascript" src="//api.skyscanner.net/api.ashx?key="></script>
 <script type="text/javascript">
    skyscanner.load("snippets","2");
    function main(){
@@ -70,7 +71,7 @@ include 'libraries/lib.php';
        snippet.draw(document.getElementById("snippet_searchpanel"));
    }
    skyscanner.setOnLoadCallback(main);
-</script> -->
+</script>  -->
 
 </head>
 <body style="top:0px !important;">

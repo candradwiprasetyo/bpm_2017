@@ -4716,7 +4716,16 @@ table.standard-table.shop td {
     text-align: right;
     position: absolute;
     right: 0px;
-    top: 3px;
+    top: 25px;
+    color: #fff;
+}
+
+.goog-te-gadget {
+	color: #fff !important;
+}
+
+.goog-logo-link {
+	color: #fff !important;
 }
 
 .translation-links a{
