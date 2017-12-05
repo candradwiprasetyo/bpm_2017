@@ -4,13 +4,13 @@
         <div class="container">
       		<div class="navbar">
 	        	<div class="item">
-	        		<i class="halflings white map-marker"></i> Jalan Johar No.172 Surabaya
+	        		<i class="halflings white map-marker"></i> Jalan Johar No.17 Surabaya
 	        	</div>
 	        	<div class="item">
-	        		<i class="halflings white phone"></i> 031-3537537
+	        		<i class="halflings white phone"></i> 031-99092900
 	        	</div>
 	        	<div class="item">
-	        		<i class="halflings white envelope"></i> invest@bpm.jatimprov.go.id
+	        		<i class="halflings white envelope"></i> dpmptsp@jatimprov.go.id
 	        	</div>
       		</div>
     	
