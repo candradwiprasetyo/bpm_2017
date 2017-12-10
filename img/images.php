@@ -1,8 +1,8 @@
 <?php
 include'../libraries/config.php';
 $img_id = $_GET['img_id'];
-$q = $mysqli->query("select * from images where img_id='$img_id'");
-while($row=mysqli_fetch_array($q)){ 
+$q = mysql_query("select * from images where img_id='$img_id'");
+while($row=mysql_fetch_array($q)){ 
 
 $picture_thumb = $row['img_img'];
 //header("Content-length: $picture_size");
