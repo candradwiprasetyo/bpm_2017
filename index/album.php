@@ -6,7 +6,7 @@
 	}
 	
 	?>
-<div id="content">
+<div class="content u-bg--white u-box-shadow">
 
 
 <!-- 960 Container -->
@@ -14,7 +14,7 @@
 
 	<div class="sixteen floated page-title">
 
-		<h2>Album BPM Jawa Timur</h2>
+		<h2>Album DPM PTSP Jawa Timur</h2>
 
 		<!-- <nav id="breadcrumbs">
 			<ul>

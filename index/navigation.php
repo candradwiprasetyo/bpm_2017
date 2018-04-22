@@ -17,7 +17,7 @@
 		  }else if($r_menu['id_menu'] == 59){
 				$link = "../ppid/";
 		  }else if($r_menu['id_menu'] == 60){
-				$link = "http://ejisc.bpm.jatimprov.go.id/app_ejisc/web/";
+				$link = "http://ejisc.dpmptsp.jatimprov.go.id/app_ejisc/web/";
 		  }else{
 			  $link = "index.php?page=content_utama&id_menu=".$r_menu['id_menu']."";
 		  }

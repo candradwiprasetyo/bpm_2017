@@ -3,14 +3,14 @@
 <div class="container">
 
 	<!-- Recent News -->
-	<div class="eight columns">
+	<div class="">
 
-		<a href="index.php?page=content&id_menu=6"><h3 class="margin-1">Berita  <span>Terbaru</span></h3></a>
+		<a href="index.php?page=content&id_menu=6"><h3 class="margin-1 c-new-title-content">Berita  <span>Terbaru</span></h3></a>
 		<?php
-		$query_news1 = $mysqli->query("SELECT * FROM news_menu WHERE news_cat_id = 6 and active_status = '1' ORDER BY news_date DESC LIMIT 0,2");
+		$query_news1 = $mysqli->query("SELECT * FROM news_menu WHERE news_cat_id = 6 and active_status = '1' ORDER BY news_date DESC LIMIT 0,3");
 			while($row_news1 = mysqli_fetch_array($query_news1)){
 		?>
-		<div class="four columns alpha">
+		<div class="one-third column">
 			<article class="recent-blog">
 				<section class="date">
 					<span class="day"><?= format_only_date($row_news1['news_date']); ?></span>
@@ -43,32 +43,6 @@
 
 	</div>
 
-	<div class="eight columns">
-
-		<h3 class="margin-1">Peraturan  <span>Terkait</span></h3>
-
-		<div class="eight columns alpha">
-			<div class="pricing-table-new">
-				<div class="color-1">
-					<ul>
-						<?php
-						$query_news3 = $mysqli->query("SELECT * FROM news where news_cat_id = '4' and active_status = '1' ORDER BY news_id DESC LIMIT 0,10");
-						while($row_news3 = mysqli_fetch_array($query_news3)){
-						?>     
-						<a href="index.php?page=read&num=<?= $row_news3['news_id'] ?>">            
-						<li class="sign-up"><i class="icon-check-circle"></i><?php echo $row_news3['news_title']; ?></li>
-					</a>
-						<?php
-						}
-						?>
-					</ul>
-					<br>
-				</div>
-			</div>
-		</div>
-
-
-	</div>
 
 	
 </div>

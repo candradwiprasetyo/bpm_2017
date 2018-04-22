@@ -1,4 +1,5 @@
   <?php
+  global $mysqli;
 	$_GET['publication_id'] = (isset($_GET['publication_id'])) ? $_GET['publication_id'] : '';
  
 
@@ -7,7 +8,7 @@
 	}
 	
 	?>
-<div id="content">
+<div class="content u-bg--white u-box-shadow ">
 
 
 <!-- 960 Container -->

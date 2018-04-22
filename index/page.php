@@ -23,7 +23,7 @@
 			echo "<div class=\"judul\">".$e->getMessage()."</div>";			
 		}
 	} else {
-	  	require_once("index/home.php");
+	  	require_once("index/home_new.php");
 	}
 
 	?>

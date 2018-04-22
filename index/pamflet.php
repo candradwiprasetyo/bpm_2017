@@ -8,7 +8,7 @@
 	}
 	
 	?>
-<div id="content">
+<div class="content u-bg--white u-box-shadow">
 
 
 <!-- 960 Container -->

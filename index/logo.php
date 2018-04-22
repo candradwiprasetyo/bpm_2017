@@ -6,7 +6,7 @@
 			</div>
 			<div class="title-left">
 				<div class="c-title">
-					DPM PTSP Provinsi Jatim
+					DPM PTSP Provinsi Jawa Timur
 				</div>
 				<div class="c-subtitle">
 					Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu Provinsi Jawa Timur

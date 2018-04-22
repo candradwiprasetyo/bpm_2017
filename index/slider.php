@@ -1,6 +1,6 @@
 <div class="row  u-box-shadow">
 <div class="container floated" style="background: #fff">
-	<div class="ten floated" style="padding: 0px;">
+	
 		<!-- FlexSlider  -->
 		<section class="flexslider home">
 			<ul class="slides">
@@ -33,8 +33,8 @@
 			</ul>
 		</section>
 		<!-- FlexSlider / End -->
-	</div>
-	<div class="five floated">
+	
+	<!-- <div class="five floated">
 		<div class="content-welcome-page">
 			<?php
 			$query_wp = $mysqli->query("select welcome_page, welcome_page_photo, welcome_page_name from config");
@@ -72,6 +72,6 @@
 				}echo "... ";
 			?>
 		</div>
-	</div>
+	</div> -->
 </div>
 </div>
