@@ -42,7 +42,7 @@
 				  || $r_menu2['id_menu'] == 68
 				  ){
 					  $link2 = $r_menu2['link'];
-				  }else if($r_menu2['id_menu'] == 40 || $r_menu2['id_menu'] == 41){
+				  }else if($r_menu2['id_menu'] == 40 || $r_menu2['id_menu'] == 41 || $r_menu2['id_menu'] == 16){
 					  $link2 = "index.php?page=content_utama&id_menu=".$r_menu2['id_menu'];
 				  //}else if($r_menu2['id_menu'] == 35 || $r_menu2['id_menu'] == 36 || $r_menu2['id_menu'] == 37 || $r_menu2['id_menu'] == 38 || $r_menu2['id_menu'] == 39){
 					  // $link2 = "index.php?page=investment_guide&ig_type=".$r_menu2['id_menu'];

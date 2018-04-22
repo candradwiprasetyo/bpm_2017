@@ -15,8 +15,7 @@
 		<div class="eight columns">
 			<nav id="sub-menu">
 				<ul>
-					<li><a href="index.php?page=content_utama&id_menu=41">FAQ's</a></li>
-					<li><a href="index.php?page=contact_question">Kirim pertanyaan</a></li>
+					
 					<li><a href="index.php?page=content_utama&id_menu=42">Contact</a></li>
 				</ul>
 			</nav>
