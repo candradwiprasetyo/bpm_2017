@@ -10,9 +10,9 @@
 		<div class="eight columns">
 			<h4>DPM PTSP Jawa Timur</h4>
 			<ul class="contact-details-alt">
-				<li><i class="halflings white map-marker"></i> <p><strong>Alamat :</strong> Jalan Johar No. 17 Surabaya</p></li>
-				<li><i class="halflings white phone"></i> <p><strong>Telepon :</strong> 031-99092900 / <b>Fax :</b> 031-99092414 </p></li>
-				<li><i class="halflings white envelope"></i> <p><strong>Email:</strong> dpmptsp@jatimprov.go.id</p></li>
+				<li><i class="halflings white map-marker"></i> <p><strong>Alamat :</strong> Jalan Johar No. 17 Surabaya </p></li>
+				<li><i class="halflings white phone"></i> <p><strong>Telepon :</strong> +62 81252708142 / +62 81252708143 </p></li>
+				<li><i class="halflings white envelope"></i> <p><strong>Email:</strong> website.dpmptsp.jatim@gmail.com</p></li>
 				<li><i class="halflings white envelope"></i> <p><strong>Korespondensi:</strong> bpm.tatausaha@yahoo.com</p></li>
 			</ul>
 		</div>

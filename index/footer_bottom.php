@@ -16,7 +16,7 @@
 			<nav id="sub-menu">
 				<ul>
 					
-					<li><a href="index.php?page=content_utama&id_menu=42">Contact</a></li>
+					<li><a href="index.php?page=content_utama&id_menu=42">Hubungi Kami</a></li>
 				</ul>
 			</nav>
 		</div>
