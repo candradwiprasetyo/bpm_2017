@@ -1,6 +1,6 @@
 <?php
-include 'libraries/config.php';
-include 'libraries/lib.php';
+include 'libraries/config_new.php';
+include 'libraries/lib_new.php';
 ?>
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->

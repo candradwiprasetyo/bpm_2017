@@ -2,11 +2,10 @@
 session_start();
 $server = 'localhost';
 $username = 'root';
-$password = 'root';
-$database = 'bpm';
-
+$password = '';
+$database = 'bpm_new';
 
 include 'function.php';
-$mysqli = new mysqli();
-$mysqli->connect($server, $username, $password, $database);
+$Mysql = new Mysql();
+$Mysql->connect($server, $username, $password, $database);
 ?>

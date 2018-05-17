@@ -1,5 +1,5 @@
 <?php
-
+global $mysqli;
 $title 			= ".: Badan Penanaman Modal :.";
 $icon 			= "img/images/favicon.ico";
 $path 			= "index/view/";
@@ -13,8 +13,9 @@ $footer			= $path.'footer.php';
 $bawah			= $path.'bawah.php';
 
 function count_data($table, $where){
-		$query = mysql_query("select count(*) as jumlah from $table where $where");
-		$row = mysql_fetch_object($query);
+	global $mysqli;
+		$query = $mysqli->query("select count(*) as jumlah from $table where $where");
+		$row = mysqli_fetch_object($query);
 		return $row->jumlah;
 	}
 
@@ -29,16 +30,16 @@ function format_date($str){
 
 function format_only_date($data){
 	$phpdate = strtotime( $data );
-	$mysqldate = date( 'd', $phpdate );
+	$mysqlidate = date( 'd', $phpdate );
 
-	return $mysqldate;
+	return $mysqlidate;
 }
 
 function format_only_month($data){
 	$phpdate = strtotime( $data );
-	$mysqldate = date( 'M', $phpdate );
+	$mysqlidate = date( 'M', $phpdate );
 
-	return $mysqldate;
+	return $mysqlidate;
 }
 	
 ?>
