@@ -1,4 +1,6 @@
-
+<?php
+global $mysqli;
+?>
 <!-- Navigation
 ================================================== -->
 <nav id="navigation" class="style-1">
@@ -7,7 +9,6 @@
 <ul class="menu" id="responsive">
 	<?php
 	  $i = 1;
-	  $con=mysqli_connect("localhost","root","root","bpm");
 	  $q_menu = $mysqli->query("select * from menus where level = '1' order by index_id");
 	  $jml = mysqli_num_rows($q_menu);
 	  while($r_menu = mysqli_fetch_array($q_menu)){

@@ -6,7 +6,7 @@ $password = 'root';
 $database = 'bpm';
 
 
-include 'function.php';
+include 'function_new.php';
 $mysqli = new mysqli();
 $mysqli->connect($server, $username, $password, $database);
 ?>

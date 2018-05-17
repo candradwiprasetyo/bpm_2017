@@ -47,7 +47,7 @@ switch($req){
 			if(file_exists("../../".$fots) && $fots != ""){
 			unlink("../../".$fots);
 			 }
-			$Mysql->edit("news", "news_title='$news_title', '$news_desc_index', news_content ='$rte1', news_img='$path$date2$news_img', 
+			$Mysql->edit("news", "news_title='$news_title', news_desc_index ='$news_desc_index', news_content ='$rte1', news_img='$path$date2$news_img', 
 			             news_cat_id = '$i_cat',active_status = '$i_show' ", 
 					     "news_id='$news_id'");
 			move_uploaded_file($_FILES['img']['tmp_name'],"../../".$path.$date2.$_FILES['img']['name']);

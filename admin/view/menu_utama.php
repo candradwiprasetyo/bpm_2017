@@ -18,7 +18,7 @@ if(isset($_GET['did']) && $_GET['did']==2){
 	 if($_POST['search_field']){
   $key = "and name like '%".$_POST['search_field']."%'"; 
   }
-    $a = mysql_query("select * from menus where level = '1' and id_menu <> 1".$key." order by id_menu");
+    $a = mysql_query("select * from menus where level = '1' and id_menu <> 1 ".$key." order by id_menu");
 	$i = 1;
 	while($b = mysql_fetch_array($a)){
 	?>

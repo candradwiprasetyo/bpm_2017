@@ -51,17 +51,17 @@
 	 ){
 	?>
      <a href="<?php echo $link ?>">
-<div class="add_config">Tambah</div>
+<div class="add_config"></div>
 </a>
     <?php
 	}
 	?>
     <a href="javascript:history.back();">
-<div class="kembali_config">Kembali</div>
+<div class="kembali_config"></div>
 </a>
 
  <a href="javascript:location.reload();">
-<div class="refresh_config">Refresh</div>
+<div class="refresh_config"></div>
 </a>
 
 </td>
@@ -90,10 +90,15 @@
 	}
 	?>
     <form name="form1" method="post" enctype="multipart/form-data" action="<?php echo $link_search; ?>" class="form">
-   
+	<?php
+	$key="Cari disini";
+	 if($_POST['search_field']){
+		$key = $_POST['search_field']; 
+	}
+	?>
      <input name="search_button" value="" class="search_icon" type="submit" >
                
-     <input name="search_field" id="search_field" type="text" class="search_field" onfocus="if(this.value=='Cari disini'){this.value='';}" onblur="if(this.value==''){this.value='Cari disini';}" value="Cari disini">
+     <input name="search_field" id="search_field" type="text" class="search_field" onfocus="if(this.value=='Cari disini'){this.value='';}" onblur="if(this.value==''){this.value='Cari disini';}" value="<?php echo $key ?>">
     </form>
     </div>
     </td>
